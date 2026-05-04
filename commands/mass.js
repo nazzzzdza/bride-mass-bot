@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require("discord.js");
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("mass")
-    .setDescription("mass response message"),
+    .setDescription("mass info"),
 
   async execute(interaction) {
     const message = `
